@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+	width:100%;
+	min-height: 100vh;
+	  background: #19172e;
+	color:#fff;
+	position:relative;
+}
+
+.container{
+	width:800px;
+	height: 180px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform : translate(-50%, -50%);
+	
+}
+
+.clock{
+	width:100%;
+	height:100%;
+	  color: #bb86fc;
+	  box-shadow: 5px 10px 18px #888888;
+	border-radius: 10px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(40px);
+}
+
+
+
+.clock span{
+	font-size: 80px;
+	width: 110px;
+	display: inline-block;
+	text-align:center;
+	position:relative;
+}
+
+.clock span::after{
+	
+	font-size:16px;
+	position:absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+
+#hrs::after{
+	content:'hours';
+}
+
+#mins::after{
+	content:'minutes';
+}
+
+#sec::after{
+	content:'seconds';
+}
+
+
+
+footer {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+footer a:visited {
+  color: inherit;
+}
