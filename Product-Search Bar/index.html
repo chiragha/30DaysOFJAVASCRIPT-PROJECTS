@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.tailwindcss.com"></script>
+       <link rel="icon" href="assets/search.png">
+    <title>Clothing Website</title>
+</head>
+<body class="bg-[#2e2d47]">
+   <div class="bg-[#2e2d47] text-center">
+    <h3 class="text-center text-4xl text-white my-4">Featured-Products</h3>
+    <p class="text-2xl text-white mb-2">Our Collections</p>
+       <input type="text" id="searchInput" onkeyup="searchProducts()" placeholder="Search products..." class="flex justify-center m-auto px-5 py-6 text-xl h-10 w-96 rounded-full border-0 ">
+
+
+	   <div class="hero">
+    <div id="products" class="flex flex-wrap justify-between pt-3">
+
+        <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/premium-photo/elegant-young-woman-gray-white-black-striped-sweater-black-long-leather-skirt-hat_481253-4870.jpg?w=360" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Skirts</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+
+        <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/free-photo/fashion-portrait-young-elegant-woman_1328-2683.jpg?t=st=1717902259~exp=1717905859~hmac=94a1f5ce0537038f0b7dd8aafa99f40389b3c4a98cf06e64b23b16f4e87da8ad&w=360" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Coats</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+
+        <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/free-photo/fashionable-woman-pink-coat-black-hat-posing_273443-2423.jpg?w=360&t=st=1717902296~exp=1717902896~hmac=275b23618985a5b36fce7262776799554a43ba978c7e273359bab513deff15c1" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Jackets</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+
+         <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/free-photo/young-woman-beautiful-red-dress_1303-17506.jpg?w=360&t=st=1717902364~exp=1717902964~hmac=72c9c10fb55a8532b259d34cfef19fe0594a04d0927f89a8c88d27262db9048d" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Frock</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+
+        <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/free-photo/fashion-portrait-young-elegant-woman_1328-2735.jpg?t=st=1717901781~exp=1717905381~hmac=15d9b836b8024a0a61479bfab7b7bdfb8ae560c2598c903a066216b973276729&w=360" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Coats</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+
+
+        <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/premium-photo/woman-gray-pants-blouse-bicolor-accessories-boots-white-background-brown-hair-studio-shot_481253-1215.jpg?w=360" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Tops</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+
+
+        <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/premium-photo/elegant-young-woman-yellow-sweater-black-leather-skirt-white-background_481253-4869.jpg?w=360" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Sweater</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+
+
+        <div class="product w-[20%] m-2 min-w-[250px] p-2 border-2 border-[#cce7d0] cursor:pointer rounded-md">
+            <img src="https://img.freepik.com/premium-photo/elegant-young-woman-yellow-sweater-blue-jeans-denim-white-background_481253-4882.jpg?w=360" alt="img" class="w-[100%] rounded-md">
+          
+            <div class="des text-white">
+                <h5 class="text-green-600 text-xl font-bold">Jeans</h5>
+                <h4 class="text-green-300 text-xl font-semibold">$78</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+   </div>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
