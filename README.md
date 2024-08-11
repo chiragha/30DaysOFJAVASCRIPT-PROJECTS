@@ -12,4 +12,5 @@
 | 8   | [Flip-Coin](https://chiragha.github.io/30DaysOFJAVASCRIPT-PROJECTS/Flip-Coin/) |
 | 9   | [Number Counter](https://chiragha.github.io/30DaysOFJAVASCRIPT-PROJECTS/Number-Counter/) |
 | 10  | [Tic-Tac-Toe](https://chiragha.github.io/30DaysOFJAVASCRIPT-PROJECTS/Tic-Tac-Toe%20Game/) |
+| 10  | [Rock-Paper-Scissors](https://chiragha.github.io/30DaysOFJAVASCRIPT-PROJECTS/07-%20Rock-Paper-scissors/) |
 
